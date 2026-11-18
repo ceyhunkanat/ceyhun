@@ -1,1 +1,69 @@
-cursor github
+Cursor ekranındaki İngilizce kelimeler
+=====================================
+
+Bu liste, Ceyhun klasörünü GitHub ile kullanırken görülen kelimelerdir.
+
+IDE
+Kodun açıldığı editör ekranı. Sağ üstteki IDE yazısına tıklanınca bu ekrana geçilir.
+Sohbet ekranında dal simgesi yoktur. O simge IDE ekranındadır.
+
+Changes
+Değişen dosyaların listesi. deneme.txt değişince burada görünür.
+Henüz GitHub'a gitmemiş iş buradadır.
+
+Commit
+Bu ana bir etiket yapıştırmak. CNC'de "bu ayarla parça tuttu" diye deftere yazmaktır.
+Etiket yalnız bu bilgisayardadır. GitHub henüz görmez.
+
+Push
+Son etiketi GitHub'daki depoya göndermek. Changes panelinin sağ üstündeki beyaz düğmedir.
+Bunu, GitHub'ın yeni hali görmesini istediğin an basarsın.
+
+Pull
+GitHub'da olup bilgisayarda olmayan yeni hali indirmek.
+Başka bir yerden dosya değiştiyse önce Pull yapılır.
+
+Branch
+Aynı işin ayrı bir kopyası. CNC'de tezgahtaki asıl program dururken kenarda denenen ikinci programdır.
+Create branch yeni bir deneme kopyası açar. Bugünkü iş için gerekmez.
+
+main
+Asıl kopyanın adı. deneme.txt bu daldadır. Başka dal açmadan burada çalışılır.
+
+Repository
+Bir işe ait dosyaların ve bütün geçmişin durduğu depo.
+GitHub'daki ceyhun sayfası bu depodur. Kısaca repo da denir.
+
+Initialize Repository
+Klasörü ilk kez depo yapmak. Bu klasörde o adım bitti. Bir daha basılmaz.
+
+Diff
+İki hal arasındaki fark. Hangi satır eklendi, hangi satır silindi, onu gösterir.
+
++ işareti
+Dosyayı bir sonraki Commit'e dahil etmek. deneme.txt satırının sağında durur.
+
+README
+Deponun kapak notu. GitHub depoyu açınca ilk bunu gösterir.
+
+Clone
+GitHub'daki depoyu bilgisayara ilk kez indirmek. Bağlantı kurmanın diğer yoludur.
+Bu klasör zaten bağlı olduğu için Clone gerekmez.
+
+Agent
+Cursor'daki sohbet. Dosyayı senin yerine düzenleyebilir. Yaptığı değişiklik yine Changes listesine düşer.
+GitHub'a gitmesi için Commit ve Push yine kullanılır.
+
+Files
+Klasördeki dosyaların listesi.
+
+Terminal
+Komut yazılan siyah ekran. Aynı işlerin bir kısmı buradan da yapılır.
+
+Her seferinde üç adım
+1. Dosyayı değiştir ve Ctrl+S ile kaydet.
+2. Changes panelinde kısa bir not yazıp Commit'e bas.
+3. GitHub görsün istiyorsan beyaz Push düğmesine bas.
+
+Küçük bir yazım hatası için üçünü peş peşe basmak şart değildir.
+Günde birkaç kez kaydedip akşam tek Commit ve tek Push yeter.
